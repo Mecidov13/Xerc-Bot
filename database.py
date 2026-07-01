@@ -2,8 +2,7 @@ import sqlite3
 from datetime import datetime
 from contextlib import contextmanager
 
-DB_PATH = "expenses.db"
-
+DB_PATH = "/data/expenses.db"
 
 @contextmanager
 def get_conn():
